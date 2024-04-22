@@ -1,8 +1,8 @@
-
+#Rozman Mantil
+#A code that plots each function individually
 import numpy as np
 import matplotlib.pyplot as plt
 
-# List of functions to plot
 functions = [
     "x**2 - 10",
     "x**2 + x - 100",
@@ -16,10 +16,8 @@ functions = [
     "(x + 2) * (x + 3) * (x - 4)"
 ]
 
-# Generate x values
 x_values = np.linspace(-10, 10, 1000)
 
-# Plot each function individually
 for i, func in enumerate(functions):
     plt.figure(figsize=(8, 6))
     try:
